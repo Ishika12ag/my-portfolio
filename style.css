@@ -60,7 +60,7 @@ h1, h2 {
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 20px
+    padding-top: 20px;
 }
 .project-card {
     background: #fff;
@@ -84,12 +84,13 @@ h1, h2 {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 40px;
+    padding: 90px;
     flex-wrap: wrap;
 }
 .about-content img {
     width: 300px;
-    border-radius: 10px;
+    border-radius: 10px;]
+    align-item: center;
 }
 
 /* Contact Section */
@@ -98,7 +99,7 @@ h1, h2 {
     background: #34345b;
     color: #fff;
     text-align: center;
-    padding-bottom: 40px
+    padding-bottom: 40px;
 }
 .contact input, .contact textarea {
     width: 80%;
