@@ -16,7 +16,7 @@ h1, h2 {
 /* Hero Section */
 .hero {
     background: url('path/to/hero-image.jpg') center/cover no-repeat;
-    height: 60vh;
+    height: 20vh;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ h1, h2 {
 .navbar {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
 }
 .nav-links {
     list-style-type: none;
