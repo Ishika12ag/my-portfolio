@@ -16,7 +16,7 @@ h1, h2 {
 /* Hero Section */
 .hero {
     background: url('path/to/hero-image.jpg') center/cover no-repeat;
-    height: 20vh;
+    height: 10vh;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -24,7 +24,7 @@ h1, h2 {
     text-align: center;
 }
 .hero-content {
-    margin-top: 0px;
+    margin-top: 20px;
 }
 .hero h1 {
     font-size: 2.5em;
@@ -34,7 +34,7 @@ h1, h2 {
 .navbar {
     display: flex;
     justify-content: center;
-    padding: 0px;
+    padding: 5px;
 }
 .nav-links {
     list-style-type: none;
@@ -53,13 +53,14 @@ h1, h2 {
 
 /* Projects Section */
 .projects {
-    padding: 40px 20px;
+    padding: 60px;
 }
 .projects-grid {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 20px
 }
 .project-card {
     background: #fff;
@@ -93,16 +94,17 @@ h1, h2 {
 
 /* Contact Section */
 .contact {
-    padding: 40px 20px;
-    background: #333;
+    padding: 20px;
+    background: #34345b;
     color: #fff;
     text-align: center;
+    padding-bottom: 40px
 }
 .contact input, .contact textarea {
     width: 80%;
     max-width: 500px;
     margin-top: 10px;
-    padding: 10px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
 }
